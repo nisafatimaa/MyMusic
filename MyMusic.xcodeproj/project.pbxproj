@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5271994E2BFA221C001967EB /* SongModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5271994D2BFA221C001967EB /* SongModel.swift */; };
+		527199512BFA258F001967EB /* MySongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527199502BFA258F001967EB /* MySongs.swift */; };
 		52E333602AD80FC00006687D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3335F2AD80FC00006687D /* AppDelegate.swift */; };
 		52E333622AD80FC00006687D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E333612AD80FC00006687D /* SceneDelegate.swift */; };
 		52E333642AD80FC00006687D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E333632AD80FC00006687D /* ViewController.swift */; };
 		52E333672AD80FC00006687D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E333652AD80FC00006687D /* Main.storyboard */; };
 		52E333692AD80FC20006687D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52E333682AD80FC20006687D /* Assets.xcassets */; };
 		52E3336C2AD80FC30006687D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52E3336A2AD80FC20006687D /* LaunchScreen.storyboard */; };
+		52E333752AD817840006687D /* Kitni-Yaadein.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52E333742AD817830006687D /* Kitni-Yaadein.mp3 */; };
+		52E333772AD817890006687D /* Your-Body-Language.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52E333762AD817890006687D /* Your-Body-Language.mp3 */; };
+		52E333792AD8178F0006687D /* Play-Date.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52E333782AD8178F0006687D /* Play-Date.mp3 */; };
+		52E3337B2AD873690006687D /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3337A2AD873690006687D /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5271994D2BFA221C001967EB /* SongModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongModel.swift; sourceTree = "<group>"; };
+		527199502BFA258F001967EB /* MySongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySongs.swift; sourceTree = "<group>"; };
 		52E3335C2AD80FC00006687D /* MyMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E3335F2AD80FC00006687D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52E333612AD80FC00006687D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		52E333682AD80FC20006687D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52E3336B2AD80FC20006687D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52E3336D2AD80FC30006687D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52E333742AD817830006687D /* Kitni-Yaadein.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kitni-Yaadein.mp3"; sourceTree = "<group>"; };
+		52E333762AD817890006687D /* Your-Body-Language.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Your-Body-Language.mp3"; sourceTree = "<group>"; };
+		52E333782AD8178F0006687D /* Play-Date.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Play-Date.mp3"; sourceTree = "<group>"; };
+		52E3337A2AD873690006687D /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5271994F2BFA257C001967EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527199502BFA258F001967EB /* MySongs.swift */,
+				5271994D2BFA221C001967EB /* SongModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		527199522BFA2594001967EB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52E333652AD80FC00006687D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		527199532BFA259C001967EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52E3337A2AD873690006687D /* PlayerViewController.swift */,
+				52E333632AD80FC00006687D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		52E333532AD80FC00006687D = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +94,14 @@
 		52E3335E2AD80FC00006687D /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				527199532BFA259C001967EB /* Controllers */,
+				527199522BFA2594001967EB /* View */,
+				5271994F2BFA257C001967EB /* Model */,
+				52E333762AD817890006687D /* Your-Body-Language.mp3 */,
+				52E333742AD817830006687D /* Kitni-Yaadein.mp3 */,
+				52E333782AD8178F0006687D /* Play-Date.mp3 */,
 				52E3335F2AD80FC00006687D /* AppDelegate.swift */,
 				52E333612AD80FC00006687D /* SceneDelegate.swift */,
-				52E333632AD80FC00006687D /* ViewController.swift */,
-				52E333652AD80FC00006687D /* Main.storyboard */,
 				52E333682AD80FC20006687D /* Assets.xcassets */,
 				52E3336A2AD80FC20006687D /* LaunchScreen.storyboard */,
 				52E3336D2AD80FC30006687D /* Info.plist */,
@@ -125,8 +167,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E333792AD8178F0006687D /* Play-Date.mp3 in Resources */,
 				52E3336C2AD80FC30006687D /* LaunchScreen.storyboard in Resources */,
+				52E333772AD817890006687D /* Your-Body-Language.mp3 in Resources */,
 				52E333692AD80FC20006687D /* Assets.xcassets in Resources */,
+				52E333752AD817840006687D /* Kitni-Yaadein.mp3 in Resources */,
 				52E333672AD80FC00006687D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +183,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5271994E2BFA221C001967EB /* SongModel.swift in Sources */,
 				52E333642AD80FC00006687D /* ViewController.swift in Sources */,
+				52E3337B2AD873690006687D /* PlayerViewController.swift in Sources */,
 				52E333602AD80FC00006687D /* AppDelegate.swift in Sources */,
+				527199512BFA258F001967EB /* MySongs.swift in Sources */,
 				52E333622AD80FC00006687D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
